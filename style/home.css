@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.homesection{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-image: url(../img/homebg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+header{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    transform: translate(-8%, 0);
+    width: 100%;
+    /* padding: 20px 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    max-width: 350px;
+    left: 100px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 70px;
+    text-decoration: none;
+    border: 2px solid transparent;
+  border-bottom: 2px solid #fff;
+  transition: border 0.3s ease;
+}
+header ul li a:hover{
+    border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid transparent;
+}
+
+.content2{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.content2 .textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content2 .textbox h2{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content2 .textbox h2 span{
+    color: rgb(16, 16, 227);
+    font-size: 1.7em;
+    font-weight: 900;
+    font-style: italic;
+}
+.slo{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content2 .imgbox{
+   max-width:  600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content2 .imgbox img{
+    max-width: 400px;
+}
+.thumbnail{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumbnail li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumbnail li:hover{
+    transform: translateY(-15px);
+}
+.thumbnail li img{
+    max-width: 50px;
+    border-radius: 70%;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    clip-path: circle(600px at right 800px);
+}
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+    header .logo{
+        max-width: 330px;
+        padding-left: 30px;
+        left: 20px;
+    }
+    header ul{
+        display: none;
+    }
+   .toggle{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../img/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    z-index: 11;
+   }
+   .toggle.active{
+   background: url(../img/close.png);
+    background-size: 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+    filter: invert(1);
+   }
+   header ul.navigation.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 109%;
+    height: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+    z-index: 10;
+   }
+   header ul.navigation a{
+    color: black;
+   }
+  
+    .homesection{
+        padding: 20px;
+    }
+    .content2{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .content2 .textbox{
+        max-width: 100%;
+    }
+    .content2 .textbox h2{
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    .circle{
+        clip-path: circle(400px at center bottom);
+    }
+    .content2 .imgbox{
+        margin-top: auto;
+        max-width: 100%;
+    }
+    .thumbnail{
+        left: 45%;
+        bottom: 100px;
+    }
+}

@@ -1,0 +1,109 @@
+.appsection{
+  background-image: url(../img/appbg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+#apps{
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+   
+}
+
+.h1app{
+    font-family: 'Arbutus';
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+    min-height: calc(100vh - 16px);
+    position: relative;
+    color: #181616;
+    bottom: 100px;
+    font-style: italic;
+    font-weight: 900;
+   
+}
+
+.act1, .act2,.act3{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    color: white;
+}
+.apprhea,.appraz,.applouie,.appzy{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    background-image: url(../img/bgapp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin: 20px 30px;
+}
+.apprhea:hover{
+    color: cyan;
+    background-image: url(../img/rheaapp.PNG);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+  
+}
+
+
+.appraz:hover{
+    color: cyan;
+    background-image: url(../img/razApp.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+  
+}
+
+
+.applouie:hover{
+    color: cyan;
+    background-image: url(../img/silanganApp.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+
+}
+
+.appzy:hover{
+    color: cyan;
+    background-image: url(../img/APPTAYI.png);
+    transition: 1s;
+    padding-bottom: 150px;
+    border-radius: 5px;
+  
+}
+@media(max-width: 991px){
+    .h1app{
+        color: white;
+        bottom: 350px;
+
+    }
+    .row{
+        position: relative;
+        top: 150px;
+    }
+}

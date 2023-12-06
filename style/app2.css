@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.quote{
+    height: auto;
+    min-height: 500px;
+    width: 900px;
+    background-color: #000000;
+    padding: 10px 10px;
+    display: grid;
+    box-shadow: 0 0 10px #000000,
+    0 0 20px #f7f7f7,
+    0 0 100px #eb0d05,
+    0 0 200px #000000;
+    place-items: center;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    gap: 10px;
+}
+
+.quote p{
+    font-family: Anton;
+    letter-spacing: 2px;
+}
+
+#answer{
+    color: #3a0808;
+}
+
+h1{
+
+    font-style:inherit;
+    box-shadow: 0 0 10px #c5bbbb,
+    0 0 20px #da0505,
+    0 0 40px #080808,
+    0 0 100px #faf6f6;
+}

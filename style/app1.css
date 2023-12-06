@@ -1,0 +1,129 @@
+.cover {
+    height: 100vh;
+    position: relative;
+    left: 550px;
+  }
+  
+  .row-margin {
+    margin: 4vh auto;
+  }
+  .back{
+    color: violet;
+    text-decoration: none;
+    font-size: 1.4em;
+    position: relative;
+    left: 720px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid violet;
+    transition: border 0.3s ease;
+  }
+  .back:hover{
+    border-top: 2px solid violet;
+    border-left: 2px solid violet;
+    border-right: 2px solid violet;
+    border-bottom: 2px solid transparent;
+  }
+  
+  body {
+    background-image: url(../img/bgapprhea.PNG);
+    /* background-image: linear-gradient(to right,#3E5151 , #DECBA4); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    transition: 5s;
+    overflow: hidden;
+
+  }
+  
+  .header {
+    color: #fff;
+  }
+  .def{
+    position: relative;
+    right: 300px;
+    font: 1.2em sans-serif;
+   background:rgba(1,1,1,0.5);
+   width: 70%;
+    
+  }
+  
+  h1 {
+    font-family: 'Akaya Kanadaka';
+    color: #ed9797;
+    font-size: 4em;
+    position: relative;
+    right: 150px;
+  }
+  
+  .btn-default {
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+  #inputPalindrome{
+    width: 250px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+  }
+  #checkPalindrome{
+    border-radius: 50px;
+    position: relative;
+    left: 60px;
+  }
+  #resetButton{
+    position: relative;
+    left: 80px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 3px solid  rgb(255, 0, 221);
+    border-style: double;
+  }
+  #notification{
+    font-size: 1.5em;
+    position: relative;
+    left: 30px;
+    color: #fff;
+  }
+  .notif{
+    position: relative;
+    right: 20px;
+  }
+  @media(max-width: 991px){
+    h1{
+      right: 470px;
+    }
+    .def{
+    right: 430px;
+    width: 67%;
+
+    }
+    #inputPalindrome{
+        right: 370px;
+        width: 380px;
+        top: 100px;
+        height: 70px;
+    }
+    input::placeholder{
+      font: 2em ;
+    }
+    #resetButton{
+      position: relative;
+     left: -230px;
+      top: 110px;
+    }
+    #checkPalindrome{
+      left: -250px;
+      top: 125px;
+    }
+    #notification{
+      left: -300px;
+      top: 120px;
+    }
+  }

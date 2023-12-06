@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+ .aboutsection{
+    background-image: url(../img/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}    
+
+#about p{
+    border-bottom: 4px solid white;
+    width: 400px;
+    position: relative;
+    left: 500px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 3px solid white;
+    display: block;
+    padding-top: 70px;
+    text-align: center;
+}
+.container1{
+  
+    width: 100%;
+}
+
+.d-block{
+    width: 70%;
+    height: 500px;
+    position: relative;
+    left: 130px;
+ }
+ .carousel-control-prev,.carousel-control-next{
+    margin: 20px -40px;
+    color: black;
+    font-size: 4em;
+    
+ }
+ .carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px; 
+ 
+ }
+ @media(max-width: 991px){
+    #about{
+        font-size: 2em;
+        padding: 80px;
+    }
+    #about p{
+        left: 80px;
+    }
+
+    .d-block{
+        left: 35px;
+        width: 90%;
+        height: 400px;
+        top: 70px;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        top: 100px;
+        height: 800px;
+    }
+    .carousel-control-prev,.carousel-control-next{
+       width: 25%;
+    }
+    
+ }

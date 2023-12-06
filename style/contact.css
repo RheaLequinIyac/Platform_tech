@@ -1,0 +1,173 @@
+#contacts{
+    background-image: url(../img/contactbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.contact_section{
+    width: 100%;
+    min-height: 100vh;
+}
+.containerText{
+    color: #e5e5e5;
+    font-size: 2.24rem;
+    text-transform: uppercase;
+    height: 50vh;
+    display: flex;
+    width: 100%;
+    transform: translate(100%, 20);
+    padding-top: 100px;
+    padding-left: 350px;
+ 
+}
+.poke{
+    color: #2A9D8F;
+    border-style: double;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 270px;
+    background-color: rgba(19, 19, 18, 0.877);
+    box-shadow: 0 0 10px #c5bbbb,
+    0 0 10px #0410f8,
+    0 0 30px #ffffff,
+    0 0 100px #013af5;
+}
+
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color:#20a7d8;
+    font-family:'Roboto';
+  }
+  .second div {
+    background-color:#CD921E;
+    font-family:'Roboto';
+  }
+  .third div {
+    background-color:#c10528;
+    font-family:'Roboto';
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+.platForm{
+    position: relative;
+    left: 350px;
+    top: -160px;
+}
+
+
+.main_form .contactus {
+    border: #350068 5px;
+    border-radius: 15px;
+    border-style: double;
+    
+    padding: 0 15px;
+    margin-bottom: 25px;
+    width: 50%;
+    height: 60px;
+    background: #fff;
+    color: #888888;
+    font-size: 16px;
+    font-weight: normal;
+   
+}
+.contactus:hover{
+    color:#39304A; 
+    box-shadow: 0 0 10px #c5bbbb,
+    0 0 20px #0410f8,
+    0 0 40px #ffffff,
+    0 0 150px #013af5;
+    transition: 0.5s;
+}
+
+.main_form .textarea {
+    border: #350068 5px;
+    border-radius: 15px;
+    border-style: double;
+    width: 50%;
+    background: #f7f4f4;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 28px 35px 0 15px;  
+    height: 90px;
+    
+}
+.textarea:hover{
+    color:#39304A; 
+    box-shadow: 0 0 10px #111111,
+    0 0 20px #0410f8,
+    0 0 40px #ffffff,
+    0 0 150px #013af5;
+    transition: 0.5s;
+}
+
+.main_form .send_btn {
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #f9faff;
+    text-transform: uppercase;
+    color: #0a0a0a;
+    padding: 10px 0px;
+    height: 50px;
+    width: 20%;
+    display: block;
+    margin-top: 20px !important;
+    font-weight: bold;
+    border:#350068 5px;
+    border-radius: 50px;
+    border-style: double;
+    
+}
+
+.main_form .send_btn:hover {
+   
+    color:#39304A; 
+    box-shadow: 0 0 10px #c5bbbb,
+    0 0 20px #0410f8,
+    0 0 40px #ffffff,
+    0 0 150px #013af5;
+    transition: 0.5s;
+}
+@media(max-width:991px){
+    .contact_section{
+        padding: 150px;
+    }
+    .poke{
+        padding-left: 100px;
+    }
+    .containerText{
+        padding-left: 90px;
+    }
+    .platForm{
+        left: 170px;
+        top: -350px;
+    }
+}
