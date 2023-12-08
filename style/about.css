@@ -34,6 +34,7 @@
     position: relative;
     left: 130px;
  }
+ 
  .carousel-control-prev,.carousel-control-next{
     margin: 20px -40px;
     color: black;
@@ -51,24 +52,25 @@
         padding: 80px;
     }
     #about p{
-        left: 80px;
+        left: -80px;
+        font-size: 1em;
     }
 
     .d-block{
         left: 35px;
-        width: 90%;
-        height: 400px;
-        top: 70px;
+        width: 80%;
+        height: 320px;
+        top: -10px;
     }
-    .carousel-inner {
+    .container1{
+        width: 150%;
         position: relative;
-        width: 100%;
-        overflow: hidden;
-        top: 100px;
-        height: 800px;
+        left: -50px;
     }
     .carousel-control-prev,.carousel-control-next{
        width: 25%;
+       left: 285px;
+       margin: 20px 0;
     }
     
  }

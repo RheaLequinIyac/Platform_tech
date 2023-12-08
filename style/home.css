@@ -137,9 +137,14 @@ header ul li a:hover{
         padding: 20px;
     }
     header .logo{
-        max-width: 330px;
+        max-width: 280px;
         padding-left: 30px;
         left: 20px;
+    }
+    .slo{
+        font-size: 1em;
+        position: relative;
+        bottom: 30px;
     }
     header ul{
         display: none;
@@ -179,6 +184,11 @@ header ul li a:hover{
    header ul.navigation a{
     color: black;
    }
+   .content2 .imgbox img{
+    max-width: 280px;
+    position: relative;
+    bottom: 50px;
+   }
   
     .homesection{
         padding: 20px;
@@ -191,8 +201,11 @@ header ul li a:hover{
         max-width: 100%;
     }
     .content2 .textbox h2{
-        font-size: 1.8em;
+        font-size: 1.1em;
         margin-bottom: 15px;
+    }
+    .content2 .textbox h2 span{
+        font-size: 1.3em;
     }
     .circle{
         clip-path: circle(400px at center bottom);
@@ -203,6 +216,6 @@ header ul li a:hover{
     }
     .thumbnail{
         left: 45%;
-        bottom: 100px;
+        bottom: 20px;
     }
 }

@@ -99,11 +99,20 @@
 @media(max-width: 991px){
     .h1app{
         color: white;
-        bottom: 350px;
+        bottom: 250px;
 
     }
     .row{
         position: relative;
-        top: 150px;
+        top: 2%;
+        left: -25px;
+    }
+    .apprhea,.appraz,.applouie,.appzy{
+        width: 160px;
+        height: 100px;
+        font-size: 1.5em;
+    }
+    .act1, .act2,.act3{
+        font-size: 1.2em;
     }
 }
